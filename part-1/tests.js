@@ -39,13 +39,13 @@ describe('Tests for part-1 functions in phase-2-challenge', () => {
     it('nameProps does not return properties from an empty object', () =>
       assert.deepEqual(nameProps({}), [])
     )
-    it('nameProps does not return a number', () => {
+    it('nameProps returns an array', () => {
       let animal = {
         name: 'whiskers',
         species: 'cat',
         age: 5
       }
-      assert.notTypeOf(nameProps(animal), 'integer')
+      assert.isArray(nameProps(animal), 'integer')
     })
   })
   describe('filterBetween()', () => {
@@ -57,9 +57,9 @@ describe('Tests for part-1 functions in phase-2-challenge', () => {
       let desserts = ['cake', 'gelato', 'pie', 'flan']
       assert.notDeepEqual(filterBetween(desserts, 'doughnut', 'gingerbread'), ['gelato', 'pie', 'flan'])
     })
-    it('filterBetween does not return a function', () => {
+    it('filterBetween returns an array', () => {
       let states = ['Colorado', 'Ohio', 'Idaho', 'Utah']
-      assert.notTypeOf(filterBetween(states, 'California', 'Montana'), 'function')
+      assert.isArray(filterBetween(states, 'California', 'Montana'), 'function')
     })
   })
 })
