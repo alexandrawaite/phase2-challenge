@@ -5,12 +5,15 @@ const clientCompany = process.argv[2]
 
 const companyFinder = (company) => {
   console.log('Finding companies with name "'  + company + '"...')
+
   let matchingCompanies = parsedData.filter(obj => obj.company.toLowerCase().startsWith(company.toLowerCase()) == true)
+
   let companyResults = matchingCompanies.map(obj => ({
     "id": obj.id,
     "company": obj.company,
     "phone": obj.phone
   }))
+
   console.log(companyResults)
 }
 
