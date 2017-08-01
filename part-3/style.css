@@ -1,0 +1,106 @@
+header {
+   display: flex;
+   justify-content: space-between;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.film-header {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.logout-btn {
+  padding: 10px 24px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 1px;
+}
+
+nav {
+  outline: solid black 2px;
+  font-size: 15px;
+}
+
+section {
+  display: flex;
+  outline: solid black 2px;
+}
+
+ul {
+  margin-top: 0px;
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 50px;
+  position: fixed;
+}
+
+li a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  margin: 10px 7px;
+}
+
+.section-header {
+  outline: solid black 2px;
+  margin-top: auto;
+  padding: 20px;
+  font-size: 23px;
+  background-color: lightgray;
+}
+
+.movies-main {
+  padding: 26px;
+  width: 100%;
+}
+
+.movies-header {
+  margin: auto;
+  font-size: 55px;
+}
+
+#drama, #romance, #action, #sci-fi {
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 27px;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.flex-item {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+}
+
+.button {
+  margin-right: 20px;
+}
+
+.title {
+  width: 68%;
+}
+
+.duration {
+  width: 20%;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 17px;
+}
