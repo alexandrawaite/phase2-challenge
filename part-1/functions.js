@@ -1,5 +1,8 @@
 const month = date => {
-  date = new Date(date)
+  if (!(date instanceof Date)) {
+    throw new Error("Please enter a Date object")
+  }
+
   let month = date.getMonth()
   const monthArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
   return monthArray[month]
