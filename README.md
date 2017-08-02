@@ -1,6 +1,4 @@
-# phase2-challenge
-
-Phase 2 Interview Challenge
+# Phase 2 Interview Challenge
 
 This is the challenge for getting into phase 2.
 
