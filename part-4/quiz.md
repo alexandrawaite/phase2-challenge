@@ -83,7 +83,7 @@
   ```
   And you were in the `linkedin-for-dancers` folder. What command would you use to copy the `README.md` file to the `pinterest-for-dogs` folder?
 
-  * `cp README.md ../pinterest-for-dogs`
+  * `cp README.md ../`
 
 
 * What keyboard shortcut do you use, in your editor, to go to a file in the project you have open?
