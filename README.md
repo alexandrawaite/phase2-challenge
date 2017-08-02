@@ -258,6 +258,6 @@ $ pwd
 - What files or folders do you want all git repositories to ignore?
 - What is the main difference between `Array.map` and `Array.forEach` in JavaScript?
 
-### RequirementsÂÂ
+### Requirements
 
 - [x] __50:__ All questions are answered correctly.
