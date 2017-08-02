@@ -7,7 +7,7 @@ describe('Tests for part-1 functions in phase-2-challenge', () => {
       let date = new Date(2017, 5, 19)
       assert.equal(month(date), 'June')
     })
-    it('month should not return August when given the date of Christmas', () => {
+    it('month does not return August when given the date of Christmas', () => {
       let christmas = new Date(2017, 11, 25)
       assert.notEqual(month(christmas), 'August')
     })
@@ -45,7 +45,7 @@ describe('Tests for part-1 functions in phase-2-challenge', () => {
         species: 'cat',
         age: 5
       }
-      assert.isArray(nameProps(animal), 'integer')
+      assert.isArray(nameProps(animal), 'this is an array')
     })
   })
   describe('filterBetween()', () => {
@@ -59,7 +59,7 @@ describe('Tests for part-1 functions in phase-2-challenge', () => {
     })
     it('filterBetween returns an array', () => {
       let states = ['Colorado', 'Ohio', 'Idaho', 'Utah']
-      assert.isArray(filterBetween(states, 'California', 'Montana'), 'function')
+      assert.isArray(filterBetween(states, 'California', 'Montana'), 'this is an array')
     })
   })
 })
