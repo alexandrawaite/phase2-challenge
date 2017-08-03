@@ -1,3 +1,11 @@
+let person = {
+  name: "alex",
+  age: 26,
+  height: 5
+}
+
+const {name, age} = person
+
 const month = date => {
   if (!(date instanceof Date)) {
     throw new Error("Please enter a Date object")
@@ -17,13 +25,8 @@ const nameProps = obj => {
 }
 
 const filterBetween = (array, min, max) => {
-  let newArray = []
-  array.filter(element => {
-    if (element >= min && element <= max) {
-      newArray.push(element)
-    }
-  })
-  return newArray
+  let sortedArray = array.filter(element => element >= min && element <= max)
+  return sortedArray
 }
 
 module.exports = {
