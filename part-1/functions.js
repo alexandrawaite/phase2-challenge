@@ -1,11 +1,3 @@
-let person = {
-  name: "alex",
-  age: 26,
-  height: 5
-}
-
-const {name, age} = person
-
 const month = date => {
   if (!(date instanceof Date)) {
     throw new Error("Please enter a Date object")
